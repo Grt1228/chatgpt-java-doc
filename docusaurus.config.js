@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'unfbx', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'chatgpt-java-doc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -72,7 +72,7 @@ const config = {
         title: 'Chagpt-Java',
         logo: {
           alt: 'Chagpt-Java Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -87,6 +87,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+		  {
+		    to: 'https://www.unfbx.com',
+		    label: 'Blog ',
+		    position: 'right',
+		  },
         ],
       },
       footer: {
@@ -132,7 +137,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Chagpt-Java, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chagpt-Java.`,
       },
       prism: {
         theme: lightCodeTheme,
