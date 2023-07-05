@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chagpt-Java',
+  title: 'Chatgpt-Java',
   tagline: 'ChatGPT Java SDK、支持OpenAI官方所有接口、开箱即用。',
   favicon: 'img/favicon.ico',
 
@@ -69,9 +69,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Chagpt-Java',
+        title: 'Chatgpt-Java',
         logo: {
-          alt: 'Chagpt-Java Logo',
+          alt: 'Chatgpt-Java Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Chagpt-Java, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chatgpt-Java, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
