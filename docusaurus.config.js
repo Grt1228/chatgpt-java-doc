@@ -71,7 +71,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-            '点个免费的star支持下吧~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/chatgpt-java">🌟支持一下🌟.  </a> | 【 星火大模型Java SDK：<a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/SparkDesk-Java">SparkDesk-Java.</a> 】',
+            '点个免费的star支持下吧~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/chatgpt-java">🌟支持一下🌟.  </a> | 【 星火大模型Java SDK：<a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/SparkDesk-Java">SparkDesk-Java.🔥🔥🔥</a> 】',
         backgroundColor: '#ffffff',
         textColor: '#000000',
         isCloseable: true,
