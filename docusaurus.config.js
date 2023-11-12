@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chagpt-Java',
+  title: 'Chatgpt-Java',
   tagline: 'ChatGPT Java SDK、支持OpenAI官方所有接口、开箱即用。',
   favicon: 'img/favicon.ico',
 
@@ -68,10 +68,18 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+        id: 'support_us',
+        content:
+            '点个免费的star支持下吧~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/chatgpt-java">🌟支持一下🌟.  </a> | 【 星火大模型Java SDK：<a target="_blank" rel="noopener noreferrer" href="https://github.com/Grt1228/SparkDesk-Java">SparkDesk-Java.🔥🔥🔥</a> 】',
+        backgroundColor: '#ffffff',
+        textColor: '#000000',
+        isCloseable: true,
+      },
       navbar: {
-        title: 'Chagpt-Java',
+        title: 'Chatgpt-Java',
         logo: {
-          alt: 'Chagpt-Java Logo',
+          alt: 'Chatgpt-Java Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -137,7 +145,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Chagpt-Java.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chatgpt-Java.`,
       },
       prism: {
         theme: lightCodeTheme,

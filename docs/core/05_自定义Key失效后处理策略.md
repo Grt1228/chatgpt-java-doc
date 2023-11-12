@@ -199,12 +199,12 @@ public class Test {
     public static void main(String[] args) {
         OkHttpClient okHttpClient = new OkHttpClient
                 .Builder()
-				//自定义key异常处理策略
-				.authInterceptor(new DynamicKeyOpenAiAuthInterceptor())
                 .build();
         OpenAiStreamClient client = OpenAiStreamClient.builder()
                 .apiKey(Arrays.asList("sk-********","sk-********"))
                 .okHttpClient(okHttpClient)//设置自定义的okHttpClient客户端
+		//自定义key异常处理策略
+		.authInterceptor(new DynamicKeyOpenAiAuthInterceptor())
                 .build();
     }
 }
