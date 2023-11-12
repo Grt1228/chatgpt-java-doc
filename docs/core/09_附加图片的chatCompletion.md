@@ -104,5 +104,5 @@ public void pictureChatV2() {
 ## 4、注意事项
 附加图片的chatCompletion暂时不支持以下简易接口请求
 
-- public void streamChatCompletion(List<Message> messages, EventSourceListener el) {.....}
-- public ChatCompletionResponse chatCompletion(List<Message> messages){......}
+- public void streamChatCompletion(List<Message> messages, EventSourceListener el)
+- public ChatCompletionResponse chatCompletion(List<Message> messages)
