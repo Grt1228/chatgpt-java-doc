@@ -1,6 +1,6 @@
 ---
 id: chat_gpt_with_pic
-title: 附加图片的chatCompletion
+title: 09、附加图片的chatCompletion
 hide_title: false
 sidebar_position: 5
 ---

@@ -1,6 +1,6 @@
 ---
 id: chat_gpt_stream
-title: ChatGPT流式输出
+title: 07、ChatGPT流式输出
 hide_title: false
 sidebar_position: 5
 ---

@@ -1,6 +1,6 @@
 ---
 id: all_api_key_invalid
-title: Key全部失效告警配置
+title: 06、Key全部失效告警配置
 hide_title: false
 sidebar_position: 5
 ---

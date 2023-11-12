@@ -1,6 +1,6 @@
 ---
 id: chat_gpt_Dall_e_3
-title: Dall-e-3生成图片
+title: 11、Dall-e-3生成图片
 hide_title: false
 sidebar_position: 5
 ---
