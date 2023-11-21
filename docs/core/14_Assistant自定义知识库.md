@@ -43,7 +43,7 @@ public class OpenAiClientTest {
 }
 ```
 
-## 3、文本转语音
+## 3、知识库示例
 ```
 public static void main(String[] args) {
     //1、上传文件
